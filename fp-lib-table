@@ -8,4 +8,6 @@
   (lib (name "CR0805_JW_331ELF")(type "KiCad")(uri "${KIPRJMOD}/models/CR0805_JW_331ELF")(options "")(descr ""))
   (lib (name "RK73B2ATTD3R3J")(type "KiCad")(uri "${KIPRJMOD}/models/RK73B2ATTD3R3J")(options "")(descr ""))
   (lib (name "USB4110_GF_A")(type "KiCad")(uri "${KIPRJMOD}/models/USB4110_GF_A")(options "")(descr ""))
+  (lib (name "FT230XS_R")(type "KiCad")(uri "${KIPRJMOD}/models/FT230XS_R")(options "")(descr ""))
+  (lib (name "MCP2200T_I_SS")(type "KiCad")(uri "${KIPRJMOD}/models/MCP2200T_I_SS")(options "")(descr ""))
 )

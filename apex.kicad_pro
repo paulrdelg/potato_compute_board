@@ -476,6 +476,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -596,6 +597,22 @@
     [
       "84b8b555-aaa5-476b-b0f2-2d0f894bf0e6",
       "Root"
+    ],
+    [
+      "d2dc332a-c338-4a69-99f1-0c9e2dd47533",
+      "Interface"
+    ],
+    [
+      "a701d762-b252-403b-8728-bc73938b4456",
+      "Power"
+    ],
+    [
+      "78c21403-ffcb-46c5-947f-0d10efc80782",
+      "Functional"
+    ],
+    [
+      "365404b6-d1fa-4571-8ebc-5e079dd57407",
+      "MCU"
     ]
   ],
   "text_variables": {}
