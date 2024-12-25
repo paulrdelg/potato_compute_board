@@ -1,8 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "AP7363_33D_13")(type "KiCad")(uri "${KIPRJMOD}/models/AP7363_33D_13")(options "")(descr ""))
-  (lib (name "C0805C106K8RACAUTO")(type "KiCad")(uri "${KIPRJMOD}/models/C0805C106K8RACAUTO")(options "")(descr ""))
-  (lib (name "CL21B104KCFNNNE")(type "KiCad")(uri "${KIPRJMOD}/models/CL21B104KCFNNNE")(options "")(descr ""))
+  (lib (name "CAP_C0805C10")(type "KiCad")(uri "${KIPRJMOD}/models/C0805C106K8RACAUTO")(options "")(descr ""))
+  (lib (name "CAP_C0805C0.1uF")(type "KiCad")(uri "${KIPRJMOD}/models/CL21B104KCFNNNE")(options "")(descr ""))
   (lib (name "CR0805_JW_331ELF")(type "KiCad")(uri "${KIPRJMOD}/models/CR0805_JW_331ELF")(options "")(descr ""))
   (lib (name "RK73B2ATTD3R3J")(type "KiCad")(uri "${KIPRJMOD}/models/RK73B2ATTD3R3J")(options "")(descr ""))
   (lib (name "USB4110_GF_A")(type "KiCad")(uri "${KIPRJMOD}/models/USB4110_GF_A")(options "")(descr ""))
