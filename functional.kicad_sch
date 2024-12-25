@@ -3733,7 +3733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "150080BS75000:LED_BS75000_WRE"
+		(property "Footprint" "150080BS75000:150080BS75000"
 			(at 19.05 177.8 0)
 			(effects
 				(font

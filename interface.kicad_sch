@@ -3830,7 +3830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PPTC041LFBN_RC:SULLINS_PPTC041LFBN-RC"
+		(property "Footprint" "PPTC041LFBN_RC:PPTC041LFBN-RC"
 			(at 139.7 116.84 0)
 			(effects
 				(font

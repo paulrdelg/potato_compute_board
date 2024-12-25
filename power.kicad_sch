@@ -1973,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP7363_33D_13:TO252-3L_DIO"
+		(property "Footprint" "AP7363_33D_13:AP7363-33D-13"
 			(at 12.446 69.088 0)
 			(effects
 				(font
