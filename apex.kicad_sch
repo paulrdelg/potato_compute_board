@@ -11,12 +11,96 @@
 		(company "InFlynn Technologies")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 15 165)
+		(end 170 190)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bbcba7b-4b56-4013-94eb-babc7d10e3d1)
+	)
+	(rectangle
+		(start 15 75)
+		(end 170 100)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79651487-5fa3-42aa-957a-24d2eea73946)
+	)
+	(rectangle
+		(start 15 15)
+		(end 170 40)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8239fb1d-2a47-4a53-b4dc-6de976563f64)
+	)
+	(rectangle
+		(start 15 45)
+		(end 170 70)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 845627f2-22d7-4089-a6da-b9aaf9903d5f)
+	)
+	(rectangle
+		(start 15 105)
+		(end 170 130)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a33f3c59-bd11-48a7-869b-b4bea3e6e65d)
+	)
+	(rectangle
+		(start 15 135)
+		(end 170 160)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c326f334-67bb-4728-9a87-36aaf705ff46)
+	)
+	(rectangle
+		(start 180 15)
+		(end 280 165)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc803159-d581-4f60-bb09-e8d2d39c50a7)
+	)
 	(sheet
-		(at 20.32 137.16)
-		(size 50.8 30.48)
+		(at 17.78 169.545)
+		(size 50.8 15.875)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
 		)
 		(fill
@@ -24,7 +108,7 @@
 		)
 		(uuid "365404b6-d1fa-4571-8ebc-5e079dd57407")
 		(property "Sheetname" "MCU"
-			(at 20.32 136.4484 0)
+			(at 17.78 168.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,8 +116,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 20.32 168.2246 0)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 17.78 186.0534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,11 +134,49 @@
 		)
 	)
 	(sheet
-		(at 15.24 91.44)
-		(size 50.8 33.02)
+		(at 17.78 109.855)
+		(size 50.8 17.145)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cda7d87-7e9e-45c2-9c67-fc3e262886b2")
+		(property "Sheetname" "USB"
+			(at 17.78 109.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 17.78 127.6334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.415 78.105)
+		(size 50.8 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.25)
 			(type solid)
 		)
 		(fill
@@ -62,7 +184,7 @@
 		)
 		(uuid "78c21403-ffcb-46c5-947f-0d10efc80782")
 		(property "Sheetname" "Functional"
-			(at 15.24 90.7284 0)
+			(at 18.415 77.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +193,7 @@
 			)
 		)
 		(property "Sheetfile" "functional.kicad_sch"
-			(at 15.24 125.0446 0)
+			(at 18.415 97.1534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,11 +210,11 @@
 		)
 	)
 	(sheet
-		(at 15.24 53.34)
-		(size 50.8 27.94)
+		(at 17.78 49.53)
+		(size 50.8 16.51)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
 		)
 		(fill
@@ -100,7 +222,7 @@
 		)
 		(uuid "a701d762-b252-403b-8728-bc73938b4456")
 		(property "Sheetname" "Power"
-			(at 15.24 52.6284 0)
+			(at 17.78 48.7696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +231,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 15.24 81.8646 0)
+			(at 17.78 66.6734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,11 +248,11 @@
 		)
 	)
 	(sheet
-		(at 15.24 17.145)
-		(size 50.8 28.575)
+		(at 17.78 17.78)
+		(size 50.8 19.05)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
 		)
 		(fill
@@ -138,7 +260,7 @@
 		)
 		(uuid "d2dc332a-c338-4a69-99f1-0c9e2dd47533")
 		(property "Sheetname" "Interface"
-			(at 15.24 16.4334 0)
+			(at 17.78 17.0196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,7 +269,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 15.24 46.3046 0)
+			(at 17.78 37.4634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
