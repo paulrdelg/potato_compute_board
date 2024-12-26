@@ -16,4 +16,6 @@
   (lib (name "OSC32_8pF")(type "KiCad")(uri "${KIPRJMOD}/models/XRCGB32M000F2P01R0/XRCGB32M000F2P01R0.kicad_sym")(options "")(descr ""))
   (lib (name "CLK_GEN")(type "KiCad")(uri "${KIPRJMOD}/models/DS1086LU_T/DS1086LU.kicad_sym")(options "")(descr ""))
   (lib (name "VCO_120MHZ")(type "KiCad")(uri "${KIPRJMOD}/models/CVCO45CL_0100_0140/CVCO45CL_0100_0140.kicad_sym")(options "")(descr ""))
+  (lib (name "VCO_36MHZ")(type "KiCad")(uri "${KICAD_PROJ}/ul_PL500-37TC/UL_PL500_37TC.kicad_sym")(options "")(descr ""))
+  (lib (name "DIO_Schoktty_40V")(type "KiCad")(uri "${KICAD_PROJ}/SD2010S040S3R0/SD2010S040S3R0.kicad_sym")(options "")(descr ""))
 )
