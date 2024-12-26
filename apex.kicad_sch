@@ -248,6 +248,44 @@
 		)
 	)
 	(sheet
+		(at 17.78 137.16)
+		(size 50.8 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab1b63b7-7528-435b-84e9-ba5a60716e92")
+		(property "Sheetname" "Timing"
+			(at 17.78 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "timing.kicad_sch"
+			(at 17.78 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 17.78)
 		(size 50.8 19.05)
 		(fields_autoplaced yes)

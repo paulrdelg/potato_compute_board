@@ -1741,7 +1741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "039357fe-1573-4680-8dfc-213234299854")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 24.13 109.855 0)
 			(effects
 				(font
@@ -1791,7 +1791,7 @@
 		(instances
 			(project ""
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -1806,7 +1806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "128db88f-bf57-43ea-b14e-21dd34d98d5b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -1816,10 +1816,10 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 27.94 117.348 0)
+			(at 27.94 116.332 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1856,7 +1856,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61d87784-ea6c-424c-86ad-b5038d4c7dcd")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -1884,7 +1884,7 @@
 			(at 35.56 83.82 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1921,7 +1921,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b669a1-3f7a-467c-85d2-78618f8a54b6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 43.18 119.38 0)
 			(effects
 				(font
@@ -1946,10 +1946,10 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 117.348 0)
+			(at 43.18 116.84 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -2002,21 +2002,19 @@
 		(dnp no)
 		(uuid "8fde16f6-9cf3-41b0-8868-96855e33ed50")
 		(property "Reference" "R9"
-			(at 33.274 73.66 0)
+			(at 33.782 74.93 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 33.274 76.2 0)
+		(property "Value" "R"
+			(at 31.75 74.93 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -2071,18 +2069,18 @@
 		(dnp no)
 		(uuid "9c5020d7-e302-416e-9829-0024f41a5ead")
 		(property "Reference" "R2"
-			(at 39.116 100.838 90)
+			(at 35.56 104.902 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 35.56 100.584 90)
+		(property "Value" "R"
+			(at 35.56 102.87 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2137,7 +2135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ea31223-a04c-46e1-9b4f-7743a9b616a7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 38.1 52.07 0)
 			(effects
 				(font
@@ -2147,10 +2145,10 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 49.403 0)
+			(at 38.1 49.53 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2187,7 +2185,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -2202,7 +2200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6870087-55e7-4a5d-8734-9f863902b4d5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 38.1 34.29 0)
 			(effects
 				(font
@@ -2212,10 +2210,10 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 38.1 26.797 0)
+			(at 38.1 26.924 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2252,7 +2250,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/4cda7d87-7e9e-45c2-9c67-fc3e262886b2"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -2268,19 +2266,21 @@
 		(dnp no)
 		(uuid "aaf4d6ae-aadd-436a-a3b4-18dc1d7a1e9e")
 		(property "Reference" "C10"
-			(at 38.354 113.284 90)
+			(at 38.1 112.395 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 35.56 115.316 90)
+		(property "Value" "C"
+			(at 33.02 112.395 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -2335,10 +2335,10 @@
 		(dnp no)
 		(uuid "cac03eeb-7dfe-45de-8490-eb9966790db4")
 		(property "Reference" "U7"
-			(at 38.735 31.242 0)
+			(at 38.735 31.115 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2347,7 +2347,7 @@
 			(at 38.735 33.02 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2419,21 +2419,19 @@
 		(dnp no)
 		(uuid "fa0e45bf-3494-4d42-af82-a6651477437b")
 		(property "Reference" "R10"
-			(at 41.402 73.66 0)
+			(at 41.402 74.93 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 41.148 76.2 0)
+		(property "Value" "R"
+			(at 39.37 74.93 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"

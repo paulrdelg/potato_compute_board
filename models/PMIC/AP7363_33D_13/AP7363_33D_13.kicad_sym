@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 27.94 10.16 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "AP7363-33D-13"
-			(at 27.94 7.62 0)
+			(at 11.43 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "TO252-3L_DIO"
-			(at 6.35 0 0)
+			(at 10.16 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "AP7363-33D-13"
-			(at 6.35 0 0)
+			(at 5.08 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 		(symbol "AP7363-33D-13_0_1"
 			(polyline
 				(pts
-					(xy 13.97 5.08) (xy 13.97 -7.62)
+					(xy -5.08 2.54) (xy -5.08 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -7.62) (xy 40.64 5.08)
+					(xy 5.08 -7.62) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -107,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 5.08) (xy 13.97 5.08)
+					(xy 5.08 2.54) (xy -5.08 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 0 0)
+				(at -12.7 0 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin power_in line
-				(at 48.26 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin power_out line
-				(at 48.26 0 180)
+				(at 12.7 0 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -175,7 +175,7 @@
 		(symbol "AP7363-33D-13_1_1"
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 40.64 -7.62)
+					(xy -5.08 -7.62) (xy 5.08 -7.62)
 				)
 				(stroke
 					(width 0.127)

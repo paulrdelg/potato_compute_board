@@ -222,7 +222,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|342900|609600|4b9156e9-08b4-4023-aa39-24d1ba6ea729|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -648,6 +650,10 @@
     [
       "4cda7d87-7e9e-45c2-9c67-fc3e262886b2",
       "USB"
+    ],
+    [
+      "ab1b63b7-7528-435b-84e9-ba5a60716e92",
+      "Timing"
     ]
   ],
   "text_variables": {}
