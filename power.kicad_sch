@@ -18,8 +18,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
-				(at 5.08 4.445 0)
+			(property "Reference" "CR6"
+				(at 5.08 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -27,7 +27,7 @@
 				)
 			)
 			(property "Value" "SD2010S040S3R0"
-				(at 5.08 -3.81 0)
+				(at 5.08 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -222,7 +222,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -240,7 +240,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -577,6 +577,1998 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR1"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_1_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR2"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_2_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR8"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_3_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_4"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR10"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_4_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR4"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_5_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_6"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR7"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_6_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR3"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_7_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SD2010S040S3R0_8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR5"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SD2010S040S3R0"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SDO_KAVX_KAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD2010S040S3R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SDO_KAVX_KAV SDO_KAVX_KAV-M SDO_KAVX_KAV-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD2010S040S3R0_8_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.905) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1133,6 +3125,354 @@
 				)
 			)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCOM"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCOM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCOM\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCOM_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCOM_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VDC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -1253,30 +3593,174 @@
 				)
 			)
 		)
+		(symbol "power:VPP"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VPP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VPP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VPP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VPP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 21.59 88.9)
+		(at 111.76 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c99e37-7f6d-4c27-be86-b65f7a0f77ca")
+	)
+	(junction
+		(at 77.47 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0d985f-1f34-4760-beb2-835e8b9b9bc4")
 	)
 	(junction
-		(at 52.07 97.79)
+		(at 107.95 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d4bf04f-89b5-4312-ae28-4651363edb66")
 	)
 	(junction
-		(at 57.15 88.9)
+		(at 113.03 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c9d145b-9cff-42f5-b24d-340adcdea1aa")
 	)
 	(junction
-		(at 39.37 97.79)
+		(at 95.25 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af541afa-0057-4082-8e03-cb5dafc54ca2")
+	)
+	(junction
+		(at 236.22 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e10889-03da-445c-8985-cb2d09fcdfbf")
+	)
+	(junction
+		(at 236.22 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b1cd3f-4f8f-4132-95fa-9bd4a1f00890")
+	)
+	(junction
+		(at 237.49 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e950d8aa-a59e-4772-bde5-05fa745022c7")
 	)
 	(junction
 		(at 57.15 60.96)
@@ -1286,7 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 57.15 90.17)
+			(xy 113.03 58.42) (xy 113.03 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 127) (xy 21.59 130.81)
+			(xy 76.2 95.25) (xy 76.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1306,17 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 30.48) (xy 39.37 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01572199-1179-4297-a695-93c48d4016ab")
-	)
-	(wire
-		(pts
-			(xy 113.03 182.88) (xy 113.03 186.69)
+			(xy 236.22 73.66) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +3800,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 158.75) (xy 100.33 158.75)
+			(xy 236.22 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 90.17 158.75)
+			(xy 200.66 49.53) (xy 213.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 57.15 88.9)
+			(xy 107.95 58.42) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 147.32 72.39)
+			(xy 76.2 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 157.48) (xy 21.59 161.29)
+			(xy 201.93 101.6) (xy 201.93 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +3860,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 182.88) (xy 77.47 186.69)
+			(xy 200.66 73.66) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +3870,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 186.69) (xy 90.17 186.69)
+			(xy 72.39 186.69) (xy 72.39 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285acb91-f98b-4735-a40a-5ace5c4aa484")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 111.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a99d0da-3d0c-4d13-b91b-dca4c71e7f35")
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 213.36 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 130.81) (xy 34.29 130.81)
+			(xy 76.2 99.06) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 72.39) (xy 157.48 72.39)
+			(xy 111.76 127) (xy 99.06 127)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 186.69) (xy 34.29 186.69)
+			(xy 201.93 130.81) (xy 214.63 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 182.88) (xy 21.59 186.69)
+			(xy 201.93 128.27) (xy 201.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +3940,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 186.69) (xy 44.45 186.69)
+			(xy 107.95 186.69) (xy 107.95 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a94424-5618-4dc5-b504-c9e8e30dfdfa")
+	)
+	(wire
+		(pts
+			(xy 237.49 130.81) (xy 224.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 77.47 158.75)
+			(xy 200.66 45.72) (xy 200.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 57.15 97.79)
+			(xy 107.95 67.31) (xy 113.03 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +3990,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 161.29) (xy 44.45 161.29)
+			(xy 110.49 152.4) (xy 110.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55225057-81e1-4d39-a0e7-5d8f3d677b1b")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 224.79 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1496,17 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 95.25) (xy 170.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab8254d-2c50-4527-bcb1-0034623cda8a")
-	)
-	(wire
-		(pts
-			(xy 21.59 97.79) (xy 39.37 97.79)
+			(xy 77.47 67.31) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1526,17 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 157.48 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a43e760-5b2e-4723-9ce7-33db2cc0ad67")
-	)
-	(wire
-		(pts
-			(xy 135.89 129.54) (xy 148.59 129.54)
+			(xy 74.93 156.21) (xy 87.63 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 135.89 129.54)
+			(xy 74.93 152.4) (xy 74.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1556,17 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 170.18 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805d4692-ef6d-4118-9391-b99e82339d86")
-	)
-	(wire
-		(pts
-			(xy 39.37 97.79) (xy 52.07 97.79)
+			(xy 95.25 67.31) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +4060,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 57.15 88.9)
+			(xy 107.95 190.5) (xy 95.25 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e31e2a-570a-452e-a185-1b9b7de26a52")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1586,17 +4080,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 125.73) (xy 171.45 129.54)
+			(xy 72.39 190.5) (xy 85.09 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d104660-a2de-4c5e-afe0-5c653b375824")
+		(uuid "8fd7ad02-6530-4db0-989c-16248fadb4d6")
 	)
 	(wire
 		(pts
-			(xy 21.59 161.29) (xy 34.29 161.29)
+			(xy 201.93 105.41) (xy 214.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 68.58) (xy 134.62 72.39)
+			(xy 76.2 123.19) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
@@ -1616,17 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6fc485-d59d-47a4-b0c4-9701347accc9")
-	)
-	(wire
-		(pts
-			(xy 52.07 91.44) (xy 52.07 97.79)
+			(xy 107.95 60.96) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 157.48) (xy 57.15 161.29)
+			(xy 237.49 101.6) (xy 237.49 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 182.88) (xy 57.15 186.69)
+			(xy 237.49 127) (xy 237.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 129.54) (xy 158.75 129.54)
+			(xy 110.49 156.21) (xy 97.79 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1676,17 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 134.62 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03b4d3e-f0e9-4ce7-8da4-e33c0dd690ab")
-	)
-	(wire
-		(pts
-			(xy 113.03 154.94) (xy 113.03 158.75)
+			(xy 236.22 45.72) (xy 236.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 44.45 130.81)
+			(xy 111.76 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 87.63) (xy 21.59 88.9)
+			(xy 77.47 57.15) (xy 77.47 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 97.79) (xy 39.37 99.06)
+			(xy 95.25 67.31) (xy 95.25 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 186.69) (xy 100.33 186.69)
+			(xy 236.22 77.47) (xy 223.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 88.9) (xy 26.67 88.9)
+			(xy 77.47 58.42) (xy 82.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 88.9) (xy 21.59 90.17)
+			(xy 77.47 58.42) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 57.15 130.81)
+			(xy 111.76 95.25) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1795,20 +4269,8 @@
 		(uuid "fcb30174-caec-4382-b267-1dacf62e88f5")
 	)
 	(rectangle
-		(start 128.27 80.01)
-		(end 178.27 105.01)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 35e361b1-fcfe-4c3c-8654-6379eb8c56cc)
-	)
-	(rectangle
-		(start 15 110)
-		(end 65 135)
+		(start 69.61 78.25)
+		(end 119.61 103.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -1831,8 +4293,8 @@
 		(uuid 6890b42b-7dbf-497c-91fc-c3042428db33)
 	)
 	(rectangle
-		(start 15 75)
-		(end 65 105)
+		(start 70 45)
+		(end 120 75)
 		(stroke
 			(width 0)
 			(type default)
@@ -1843,8 +4305,8 @@
 		(uuid 743b8585-8c66-4368-b221-117148cf93a2)
 	)
 	(rectangle
-		(start 71.12 167.64)
-		(end 121.12 192.64)
+		(start 194.31 58.42)
+		(end 244.31 83.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -1855,8 +4317,20 @@
 		(uuid 76321ecc-76c4-4e9a-aea8-8367fc742ddc)
 	)
 	(rectangle
-		(start 15.24 167.64)
-		(end 65.24 192.64)
+		(start 66.04 171.45)
+		(end 116.04 196.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e0b8e88-5f30-4beb-83e6-722082b21c4c)
+	)
+	(rectangle
+		(start 195.58 111.76)
+		(end 245.58 136.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -1867,8 +4341,8 @@
 		(uuid a36da559-12e7-46b2-9b5f-65f33278adeb)
 	)
 	(rectangle
-		(start 71.12 139.7)
-		(end 121.12 164.7)
+		(start 194.31 30.48)
+		(end 244.31 55.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -1891,8 +4365,8 @@
 		(uuid c7a10080-c497-449c-bc87-865bd720af3e)
 	)
 	(rectangle
-		(start 15 140)
-		(end 65 165)
+		(start 195.34 84.12)
+		(end 245.34 109.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -1903,8 +4377,8 @@
 		(uuid d3e87d82-4216-49a6-9373-33615565f3c5)
 	)
 	(rectangle
-		(start 129.54 110.49)
-		(end 179.54 135.49)
+		(start 68.58 137.16)
+		(end 118.58 162.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -1915,8 +4389,8 @@
 		(uuid e494ff1a-5877-48a3-99cd-3436be2ea734)
 	)
 	(rectangle
-		(start 128.27 53.34)
-		(end 178.27 78.34)
+		(start 69.85 107.95)
+		(end 119.85 132.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -1940,7 +4414,7 @@
 	)
 	(text "5v-to-3.3v"
 		(exclude_from_sim no)
-		(at 39.37 78.74 0)
+		(at 96.52 46.99 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1952,7 +4426,7 @@
 	)
 	(text "VUSART1-to-VBOARD"
 		(exclude_from_sim no)
-		(at 153.67 59.69 0)
+		(at 95.25 114.3 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1964,7 +4438,7 @@
 	)
 	(text "VBOARD-to-VMCU"
 		(exclude_from_sim no)
-		(at 40.64 146.05 0)
+		(at 220.98 90.17 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1976,7 +4450,7 @@
 	)
 	(text "VBOARD-to-VVCO"
 		(exclude_from_sim no)
-		(at 96.52 146.05 0)
+		(at 219.71 36.83 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1988,7 +4462,7 @@
 	)
 	(text "VBOARD-to-VLED"
 		(exclude_from_sim no)
-		(at 96.52 173.99 0)
+		(at 219.71 64.77 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2000,7 +4474,7 @@
 	)
 	(text "VBOARD-to-VRST"
 		(exclude_from_sim no)
-		(at 40.64 173.99 0)
+		(at 220.98 118.11 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2010,9 +4484,9 @@
 		)
 		(uuid "8fe831d9-1a9d-44e1-8af3-aa98f794a8fd")
 	)
-	(text "VUSART1-to-VBOARD"
+	(text "I2C-to-VBOARD"
 		(exclude_from_sim no)
-		(at 153.67 86.36 0)
+		(at 91.44 177.8 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2020,7 +4494,7 @@
 				(bold yes)
 			)
 		)
-		(uuid "c4e71907-6d2a-4f6f-9c77-fdaad7b3587f")
+		(uuid "9c134fac-1161-4481-bc05-547e3061784c")
 	)
 	(text "POWER FLAGS\nREQUIRED FOR KICAD ERC"
 		(exclude_from_sim no)
@@ -2036,7 +4510,7 @@
 	)
 	(text "VSW-to-VBOARD"
 		(exclude_from_sim no)
-		(at 154.94 116.84 0)
+		(at 93.98 143.51 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2048,7 +4522,7 @@
 	)
 	(text "3.3v-to-VBOARD"
 		(exclude_from_sim no)
-		(at 38.1 115.57 0)
+		(at 92.71 83.82 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2059,16 +4533,16 @@
 		(uuid "f3f49ccd-cd4a-4467-a934-9c3b78fdd994")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 134.62 95.25 0)
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ad38993-34ce-431c-bec6-e16fd4564354")
-		(property "Reference" "#PWR051"
-			(at 134.62 99.06 0)
+		(uuid "0c63762c-507c-488a-9965-95f4d6cb6d8e")
+		(property "Reference" "#FLG011"
+			(at 111.76 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,8 +4550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VUSART1"
-			(at 134.62 91.694 0)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +4559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 95.25 0)
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,8 +4567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 95.25 0)
+		(property "Datasheet" "~"
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,8 +4576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 95.25 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,12 +4586,143 @@
 			)
 		)
 		(pin "1"
-			(uuid "9df4f8a0-6717-4e05-8e00-f90f94b7dd0a")
+			(uuid "e8e36c28-d24c-45c0-b32b-f5c8edd194f8")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR051")
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 237.49 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "180a5102-67b5-4794-afeb-8baa83c661dc")
+		(property "Reference" "#FLG08"
+			(at 237.49 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a45efc-f585-4c2b-ae9e-1f2877323795")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 201.93 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2796ea63-f2e4-431d-a111-b0916164f15c")
+		(property "Reference" "#PWR059"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24374b81-a277-42b7-83a5-f7f80b8eba3f")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2133,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e85d68-6592-4617-a2c2-a9c04140a319")
-		(property "Reference" "#PWR42"
+		(property "Reference" "#PWR042"
 			(at 48.26 34.29 0)
 			(effects
 				(font
@@ -2183,7 +4788,7 @@
 		(instances
 			(project ""
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR42")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2198,7 +4803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd50bc7-e86f-42ae-ad6c-d3f7d05d71d6")
-		(property "Reference" "#FLG5"
+		(property "Reference" "#FLG05"
 			(at 48.26 34.925 0)
 			(effects
 				(font
@@ -2248,15 +4853,16 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#FLG5")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_2")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 34.29 130.81 0)
+		(at 88.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2265,7 +4871,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ed0d892-e641-4f6c-b071-97dfbfdf3a0f")
 		(property "Reference" "CR2"
-			(at 39.37 124.46 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2273,7 +4879,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 39.37 127 0)
+			(at 93.98 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2281,7 +4887,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 34.29 130.81 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 34.29 130.81 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +4907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 130.81 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,6 +4931,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 200.66 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9c0156-897b-493e-8533-af687c7b28f6")
+		(property "Reference" "#PWR047"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4b2ef57-22c0-4dec-862e-a0e6680550e3")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 22.86 33.02 180)
 		(unit 1)
@@ -2333,7 +5005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3af57fe1-73df-4a3d-9cc0-919cfee5a8f9")
-		(property "Reference" "#FLG4"
+		(property "Reference" "#FLG04"
 			(at 22.86 34.925 0)
 			(effects
 				(font
@@ -2383,143 +5055,14 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#FLG4")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "469137b1-8620-4929-9dc6-7a5eb03c54c8")
-		(property "Reference" "#PWR021"
-			(at 77.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBOARD"
-			(at 77.47 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fccf05b-35e2-49a8-b586-a529903f7829")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48f89ebe-00eb-45ce-909f-50cf390ed8a8")
-		(property "Reference" "#PWR41"
-			(at 57.15 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBOARD"
-			(at 57.15 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c8e7595-4baa-4c37-8790-6c15c917d373")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SD2010S040S3R0_5")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
 		(at 34.29 60.96 0)
 		(unit 1)
@@ -2598,7 +5141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c675afb-28d6-4609-a90c-d0e7fd20515c")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR06"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -2648,7 +5191,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2656,15 +5199,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 99.06 0)
+		(at 95.25 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4c6d9769-e227-4f89-a1f0-604cbf60bd01")
-		(property "Reference" "#PWR9"
-			(at 39.37 105.41 0)
+		(property "Reference" "#PWR09"
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +5216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 102.87 0)
+			(at 95.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 99.06 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +5233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 99.06 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +5242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 99.06 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,23 +5256,24 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR9")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 21.59 157.48 0)
+		(lib_id "power:VDC")
+		(at 200.66 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ecdabd3-b804-491b-a0b5-7d2ed2696815")
-		(property "Reference" "#PWR44"
-			(at 21.59 161.29 0)
+		(fields_autoplaced yes)
+		(uuid "51609199-859d-47dc-aad3-4141aaa0b584")
+		(property "Reference" "#PWR058"
+			(at 200.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,8 +5281,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBOARD"
-			(at 21.59 153.924 0)
+		(property "Value" "VDC"
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +5290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 157.48 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +5299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 157.48 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,8 +5307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 21.59 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,12 +5317,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c571c641-1f6b-4a44-9773-4f200ce6b4bd")
+			(uuid "9d4f5543-9c99-4597-bbb9-56b1e84424be")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR44")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2786,15 +5330,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 21.59 127 0)
+		(at 76.2 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5815e37c-0db7-4e1e-87b3-799ace5e8839")
-		(property "Reference" "#PWR39"
-			(at 21.59 130.81 0)
+		(property "Reference" "#PWR039"
+			(at 76.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +5347,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 21.59 123.444 0)
+			(at 76.2 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +5355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 127 0)
+			(at 76.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 127 0)
+			(at 76.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +5373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 21.59 127 0)
+			(at 76.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,23 +5387,61 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR39")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 21.59 87.63 0)
+		(lib_name "SD2010S040S3R0_1")
+		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
+		(at 85.09 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "63877567-3046-49a2-a3e6-dc51c5d0c4af")
-		(property "Reference" "#PWR18"
-			(at 21.59 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "61a7d499-c647-4afb-89d1-1afb76203628")
+		(property "Reference" "CR1"
+			(at 90.17 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SD2010S040S3R0"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SDO_KAVX_KAV"
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SD2010S040S3R0"
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,8 +5449,42 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 21.59 84.074 0)
+		(pin "1"
+			(uuid "e80ca7cb-456b-4f96-8512-f16a7905798e")
+		)
+		(pin "2"
+			(uuid "d5b0cc6f-284b-409a-b763-d08fa92a4642")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 237.49 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a4b86a-67c1-4d12-ae78-20c61bea96e7")
+		(property "Reference" "#PWR026"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 237.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +5492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 87.63 0)
+			(at 237.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +5501,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 87.63 0)
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c87d4ac-a340-4214-ae5e-a4a27cae2679")
+		)
+		(instances
+			(project ""
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 77.47 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63877567-3046-49a2-a3e6-dc51c5d0c4af")
+		(property "Reference" "#PWR018"
+			(at 77.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 77.47 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +5575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 21.59 87.63 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,23 +5589,24 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 21.59 182.88 0)
+		(lib_id "power:VDC")
+		(at 107.95 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64963dab-0c53-40d7-a54a-1c99a50bfb9e")
-		(property "Reference" "#PWR08"
-			(at 21.59 186.69 0)
+		(fields_autoplaced yes)
+		(uuid "64f806dc-9a77-4479-b53e-cf1d85af8df3")
+		(property "Reference" "#PWR044"
+			(at 107.95 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,8 +5614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBOARD"
-			(at 21.59 179.324 0)
+		(property "Value" "VDC"
+			(at 107.95 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +5623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 182.88 0)
+			(at 107.95 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +5632,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 182.88 0)
+			(at 107.95 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 107.95 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb4987d-c57d-4262-ad71-035ff9b63ea9")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "673badcf-e69d-42ff-92ae-8f03a54e3808")
+		(property "Reference" "#PWR03"
+			(at 72.39 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +5706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 21.59 182.88 0)
+			(at 72.39 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,65 +5715,64 @@
 			)
 		)
 		(pin "1"
-			(uuid "64d9eb04-a008-40f9-a990-678f6719167b")
+			(uuid "e605deb5-2e84-40a6-8bf8-09c24de72617")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 147.32 99.06 0)
+		(lib_id "power:VDC")
+		(at 111.76 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69c67c0a-c85b-45ea-a3e5-c746dcf7d897")
-		(property "Reference" "CR9"
-			(at 152.4 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SD2010S040S3R0"
-			(at 152.4 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SDO_KAVX_KAV"
-			(at 147.32 99.06 0)
+		(uuid "6b7324ed-5549-459b-b168-884b413c56e7")
+		(property "Reference" "#PWR041"
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SD2010S040S3R0"
-			(at 147.32 99.06 0)
+		(property "Value" "VDC"
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 99.06 0)
+		(property "Datasheet" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 111.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,23 +5781,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe25b7a6-8570-4699-a90d-cb5bd4fdd878")
-		)
-		(pin "2"
-			(uuid "53437cfc-c03a-4f4c-bf4a-dbbc16bdcab2")
+			(uuid "905379fb-91cd-4df0-9cdd-a3cb71af07db")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "CR9")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_3")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 148.59 129.54 0)
+		(at 87.63 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3060,7 +5804,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b93aba4-921a-4d2b-aae6-b36b87fbe8a7")
 		(property "Reference" "CR8"
-			(at 153.67 123.19 0)
+			(at 92.71 149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3068,7 +5812,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 153.67 125.73 0)
+			(at 92.71 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3076,7 +5820,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 148.59 129.54 0)
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +5830,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 148.59 129.54 0)
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +5840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 129.54 0)
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,16 +5864,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 33.02 180)
+		(lib_id "power:VDD")
+		(at 237.49 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "71838f29-637e-4e44-a2b2-1957b7832b01")
-		(property "Reference" "#FLG3"
-			(at 39.37 34.925 0)
+		(fields_autoplaced yes)
+		(uuid "74d16583-0d35-42d8-9594-68df655e5e13")
+		(property "Reference" "#PWR08"
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,8 +5882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 39.37 36.83 0)
+		(property "Value" "VDD"
+			(at 237.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,72 +5891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50066c09-3e88-4264-ba8f-a62bcfe0f4ad")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#FLG3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7669583e-c682-4397-bd01-3369a44d61dc")
-		(property "Reference" "#PWR033"
-			(at 135.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSW"
-			(at 135.89 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 125.73 0)
+			(at 237.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +5900,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 125.73 0)
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2da12890-5f89-4fc8-a12c-940fad33326e")
+		)
+		(instances
+			(project ""
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7669583e-c682-4397-bd01-3369a44d61dc")
+		(property "Reference" "#PWR033"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +5974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 125.73 0)
+			(at 74.93 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,8 +5995,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_4")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 147.32 72.39 0)
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3260,7 +6006,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a1ef8ec-238c-49ba-894e-b43921226566")
 		(property "Reference" "CR10"
-			(at 152.4 66.04 0)
+			(at 93.98 120.65 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3268,7 +6014,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 152.4 68.58 0)
+			(at 93.98 123.19 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3276,7 +6022,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 147.32 72.39 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +6032,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 147.32 72.39 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +6042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 72.39 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,16 +6066,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 154.94 0)
+		(lib_id "power:VDC")
+		(at 201.93 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7c9a7c61-ea02-493c-9bb1-ce627f57941a")
-		(property "Reference" "#PWR032"
-			(at 113.03 158.75 0)
+		(fields_autoplaced yes)
+		(uuid "7b0fdc86-ca71-4112-a01b-a2f37106c418")
+		(property "Reference" "#PWR060"
+			(at 201.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,8 +6084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VVCO"
-			(at 113.03 151.384 0)
+		(property "Value" "VDC"
+			(at 201.93 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +6093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 154.94 0)
+			(at 201.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +6102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 154.94 0)
+			(at 201.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,73 +6110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22fd3bf9-ebcc-4196-ac4c-ad4e62df5d9b")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85f8ad12-daf0-4e9c-8e81-fb14d4ac5d78")
-		(property "Reference" "#PWR027"
-			(at 113.03 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VLED"
-			(at 113.03 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 182.88 0)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 201.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,20 +6120,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "4eb72f47-5422-4c5a-8f27-107e1a504955")
+			(uuid "4abf5d9d-5630-4e7d-b513-6a739a6d2a49")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR027")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_6")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 90.17 158.75 0)
+		(at 213.36 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3460,7 +6143,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c1b1c18-44f3-4ac4-9b8d-5123ac91dcf5")
 		(property "Reference" "CR7"
-			(at 95.25 152.4 0)
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3468,7 +6151,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 95.25 154.94 0)
+			(at 218.44 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3476,7 +6159,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 90.17 158.75 0)
+			(at 213.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +6169,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 90.17 158.75 0)
+			(at 213.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +6179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 158.75 0)
+			(at 213.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,34 +6203,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 21.59 93.98 180)
+		(lib_id "power:PWR_FLAG")
+		(at 236.22 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a66c2958-f3e7-4cf4-9ecc-060eabc4f17f")
-		(property "Reference" "C2"
-			(at 20.955 96.52 0)
+		(uuid "9bf990da-f7d8-46d0-aefe-9d6cfd82cc3e")
+		(property "Reference" "#FLG010"
+			(at 236.22 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "C"
-			(at 20.955 91.44 0)
+		(property "Value" "PWR_FLAG"
+			(at 236.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 20.6248 90.17 0)
+		(property "Footprint" ""
+			(at 236.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +6238,139 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 93.98 0)
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daf06a81-98f3-4e7e-bedb-f22118478cf3")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 236.22 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a253da9d-715d-4292-93b3-9d0806bdb22a")
+		(property "Reference" "#PWR037"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 236.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6d9b376-8ea5-4e8f-90eb-de20bdcd20d3")
+		)
+		(instances
+			(project ""
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66c2958-f3e7-4cf4-9ecc-060eabc4f17f")
+		(property "Reference" "C2"
+			(at 76.835 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 76.835 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 76.5048 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +6379,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 21.59 93.98 0)
+			(at 77.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,71 +6403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa84af62-babc-4ced-bdc8-891f3a17f29d")
-		(property "Reference" "#PWR010"
-			(at 57.15 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VRST"
-			(at 57.15 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc2bc000-1978-44e9-9a6d-0589d9bc271e")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 21.59 55.88 0)
 		(unit 1)
@@ -3662,7 +6411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b88af215-bb96-4419-b2de-2c83a76d76c3")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR019"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -3712,15 +6461,16 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR19")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_7")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 34.29 161.29 0)
+		(at 214.63 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3729,7 +6479,7 @@
 		(fields_autoplaced yes)
 		(uuid "c12acbb0-ba44-4dd5-90f0-887f720e50fc")
 		(property "Reference" "CR3"
-			(at 39.37 154.94 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3737,7 +6487,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 39.37 157.48 0)
+			(at 219.71 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3745,7 +6495,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 34.29 161.29 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +6505,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 34.29 161.29 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +6515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 161.29 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,6 +6539,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 110.49 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c443d117-ca3e-4a13-a553-b71e48bd2a34")
+		(property "Reference" "#PWR055"
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 110.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f092a7b-b161-48a5-ac9f-c6104154e26e")
+		)
+		(instances
+			(project "apex"
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 31.75 30.48 0)
 		(unit 1)
@@ -3798,7 +6614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b80bde-cd40-425a-b8ec-dfc416bff4d5")
-		(property "Reference" "#FLG6"
+		(property "Reference" "#FLG06"
 			(at 31.75 28.575 0)
 			(effects
 				(font
@@ -3848,72 +6664,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#FLG6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5077567-5130-46a2-80e1-beb481a06c02")
-		(property "Reference" "#PWR057"
-			(at 170.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBOARD"
-			(at 170.18 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c95b1f1-14f2-45c4-b145-b7bc6c1a0316")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR057")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -3928,7 +6679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d85f4a5f-9ecb-49f1-8460-8a967fd1f585")
-		(property "Reference" "#FLG7"
+		(property "Reference" "#FLG07"
 			(at 57.15 62.865 0)
 			(effects
 				(font
@@ -3978,23 +6729,24 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#FLG7")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 87.63 0)
+		(lib_id "power:VDC")
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0ed84ab-dd41-4cba-af4f-9b74cda0655c")
-		(property "Reference" "#PWR11"
-			(at 57.15 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "e0a117c8-d1cb-4d29-8ad4-3e9594490e20")
+		(property "Reference" "#PWR045"
+			(at 111.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,8 +6754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 57.15 84.074 0)
+		(property "Value" "VDC"
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +6763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 87.63 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +6772,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 87.63 0)
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b607d5a1-7b38-4b16-8deb-099f30c13a4e")
+		)
+		(instances
+			(project ""
+				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0ed84ab-dd41-4cba-af4f-9b74cda0655c")
+		(property "Reference" "#PWR011"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 113.03 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +6846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 87.63 0)
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +6860,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4051,7 +6868,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 134.62 68.58 0)
+		(at 76.2 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4059,7 +6876,7 @@
 		(dnp no)
 		(uuid "e451aa8d-40a6-4bbd-958b-5a2ebc92a4ef")
 		(property "Reference" "#PWR056"
-			(at 134.62 72.39 0)
+			(at 76.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,8 +6884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VI2C"
-			(at 134.62 65.024 0)
+		(property "Value" "+3V3"
+			(at 76.2 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +6893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 68.58 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 68.58 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +6911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 68.58 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,71 +6932,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e534564b-c085-4ea0-b09a-32da40083d88")
-		(property "Reference" "#PWR055"
-			(at 170.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBOARD"
-			(at 170.18 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066b00a7-e5d6-4974-9389-2cd9ef318dba")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 57.15 55.88 0)
 		(unit 1)
@@ -4188,7 +6940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5d81e93-dfbb-4b45-93e3-09a0808b0303")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -4238,7 +6990,7 @@
 		(instances
 			(project ""
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4246,7 +6998,7 @@
 	)
 	(symbol
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 90.17 186.69 0)
+		(at 213.36 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4255,7 +7007,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7d290dd-5cef-481e-a016-464b5e437f40")
 		(property "Reference" "CR6"
-			(at 95.25 180.34 0)
+			(at 218.44 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4263,7 +7015,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 95.25 182.88 0)
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4271,7 +7023,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 90.17 186.69 0)
+			(at 213.36 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +7033,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 90.17 186.69 0)
+			(at 213.36 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +7043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 186.69 0)
+			(at 213.36 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,16 +7067,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 171.45 125.73 0)
+		(lib_id "power:PWR_FLAG")
+		(at 236.22 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8fab3ba-693e-427f-85d7-c922067fd74b")
-		(property "Reference" "#PWR047"
-			(at 171.45 129.54 0)
+		(uuid "edf04ceb-eb11-429a-892f-db76f7dd68c9")
+		(property "Reference" "#FLG09"
+			(at 236.22 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,8 +7084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBOARD"
-			(at 171.45 122.174 0)
+		(property "Value" "PWR_FLAG"
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +7093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 125.73 0)
+			(at 236.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,8 +7101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 125.73 0)
+		(property "Datasheet" "~"
+			(at 236.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,8 +7110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 171.45 125.73 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 236.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,20 +7120,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9993606-1120-4370-8247-402dce766f2a")
+			(uuid "0172ab64-cb4d-496c-a358-41efcad2e73f")
 		)
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR047")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SD2010S040S3R0_8")
 		(lib_id "DIO_Schoktty_40V:SD2010S040S3R0")
-		(at 34.29 186.69 0)
+		(at 214.63 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4390,7 +7143,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee285383-6792-4dd9-b38d-298f5ca2e0df")
 		(property "Reference" "CR5"
-			(at 39.37 180.34 0)
+			(at 219.71 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4398,7 +7151,7 @@
 			)
 		)
 		(property "Value" "SD2010S040S3R0"
-			(at 39.37 182.88 0)
+			(at 219.71 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4406,7 +7159,7 @@
 			)
 		)
 		(property "Footprint" "SDO_KAVX_KAV"
-			(at 34.29 186.69 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +7169,7 @@
 			)
 		)
 		(property "Datasheet" "SD2010S040S3R0"
-			(at 34.29 186.69 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +7179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 186.69 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,73 +7203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 39.37 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f183d925-5a68-4cfe-8575-013bc3abc3de")
-		(property "Reference" "#PWR43"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 39.37 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 39.37 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14eabde2-3881-42a3-8e6e-cb73d79be7c3")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PMIC_LDO_3.3V:AP7363-33D-13")
-		(at 39.37 88.9 0)
+		(at 95.25 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +7213,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6c65c4e-9be6-40f7-875e-6e0c2c18fc57")
 		(property "Reference" "U1"
-			(at 39.37 81.28 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4533,7 +7221,7 @@
 			)
 		)
 		(property "Value" "AP7363-33D-13"
-			(at 39.37 83.82 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4541,7 +7229,7 @@
 			)
 		)
 		(property "Footprint" "TO252-3L_DIO"
-			(at 49.53 85.09 0)
+			(at 105.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +7239,7 @@
 			)
 		)
 		(property "Datasheet" "AP7363-33D-13"
-			(at 44.45 81.28 0)
+			(at 100.33 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +7249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 88.9 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +7277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 93.98 180)
+		(at 113.03 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,7 +7285,7 @@
 		(dnp no)
 		(uuid "f78246e5-a5e4-4775-9b7f-3b7b04e51e91")
 		(property "Reference" "C3"
-			(at 56.515 96.52 0)
+			(at 112.395 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +7294,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 56.515 91.44 0)
+			(at 112.395 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +7303,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 56.1848 90.17 0)
+			(at 112.0648 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +7312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 93.98 0)
+			(at 113.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +7321,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 93.98 0)
+			(at 113.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,16 +7345,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 154.94 0)
+		(lib_id "power:VCOM")
+		(at 236.22 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fbb61a82-a95e-42e9-9b57-8f56d80bd275")
-		(property "Reference" "#PWR031"
-			(at 77.47 158.75 0)
+		(fields_autoplaced yes)
+		(uuid "f7c71794-58b7-4d42-b3f9-b144fbe47f45")
+		(property "Reference" "#PWR040"
+			(at 236.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,8 +7363,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBOARD"
-			(at 77.47 151.384 0)
+		(property "Value" "VCOM"
+			(at 236.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +7372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 154.94 0)
+			(at 236.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 154.94 0)
+			(at 236.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,73 +7389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "668be4c4-a6d7-46b0-a017-438342562a60")
-		)
-		(instances
-			(project "apex"
-				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff168c08-2790-4870-b001-0f942634e56c")
-		(property "Reference" "#PWR54"
-			(at 57.15 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VMCU"
-			(at 57.15 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 236.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,12 +7399,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34f49cf0-53e3-4ac0-b09d-c78a60196a48")
+			(uuid "190ae6b6-1a8f-43e6-a73e-b80366aa22b9")
 		)
 		(instances
-			(project "apex"
+			(project ""
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR54")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4796,7 +7420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff1016a-fecb-4720-90f8-8c619e37f5db")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01"
 			(at 22.86 34.29 0)
 			(effects
 				(font
@@ -4846,7 +7470,7 @@
 		(instances
 			(project "apex"
 				(path "/84b8b555-aaa5-476b-b0f2-2d0f894bf0e6/a701d762-b252-403b-8728-bc73938b4456"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
