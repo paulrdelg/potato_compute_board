@@ -1238,7 +1238,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "XRCGB32M000F2P01R0:OSC_XRCGB32M000F2P01R0"
+		(property "Footprint" "CRYSTAL_32MHZ:OSC_XRCGB32M000F2P01R0"
 			(at 40.64 38.1 0)
 			(effects
 				(font
@@ -1618,7 +1618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 105.41 34.29 0)
 			(effects
 				(font

@@ -55,7 +55,6 @@
       "drc_exclusions": [
         "lib_footprint_mismatch|34500000|50984250|eb9a9578-6cc5-48fc-9af9-f1712dbf662e|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|43222500|59000000|e509bd19-ea94-4b2c-b0aa-05103f963e69|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|52851850|49587500|35bc2dc5-528e-412a-8144-d76d8c1d983c|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|54950000|38500000|f2f17866-d417-4db6-a0cf-eb969413124f|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|54992500|59000000|0b6463eb-be2f-4400-8c9f-b9dd40fd503f|00000000-0000-0000-0000-000000000000"
       ],
@@ -222,7 +221,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|342900|609600|4b9156e9-08b4-4023-aa39-24d1ba6ea729|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
